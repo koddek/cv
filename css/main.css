@@ -173,3 +173,29 @@ flex-direction: column;
   margin: 0 auto;
   padding: 60px 0;
 }
+
+/*********FOOTER STYLES*********/
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3rem 0;
+}
+
+.contact h2 {
+  margin-top: 3rem;
+}
+
+.contact-list {
+  display: flex;
+}
+
+.contact-list li {
+  padding: 1rem;
+  color: var(--color3);
+}
+
+.contact-list li a {
+  color: var(--color3);
+}
