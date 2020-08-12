@@ -3,7 +3,7 @@
 
 /*********COLORS*********/
 :root {
-  --color1: #b6eb7a;
+  --color-primary: #b6eb7a;
   --color2: #f7f7ee;
   --color3: #fb7813;
   --color4: #17706e;
@@ -63,10 +63,22 @@ h3 {
 
 p {
   line-height: 2rem;
+  margin: 1rem 0;
+}
+
+strong {
+  color: var(--color4);
 }
 
 img {
-  width: 400px;
+  width: 300px;
+  height: 400px;
+  object-fit: cover;
+  object-position: top left;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;  
 }
 
 .btn {
@@ -74,9 +86,9 @@ img {
   /* font-family: Arial; */
   color: var(--color-almost-white);
   font-size: 20px;
-  background: var(--color1);
+  background: var(--color-primary);
   padding: 10px 20px 10px 20px;
-  border: solid var(--color1) 2px;
+  border: solid var(--color-primary) 2px;
   text-decoration: none;
   align-self: start;
   margin-top: 1rem;
@@ -84,7 +96,7 @@ img {
 
 .btn:hover {
   background: var(--color-almost-white);
-  color: var(--color1);
+  color: var(--color-primary);
   text-decoration: none;
 }
 
@@ -96,7 +108,7 @@ img {
 /*********HERO STYLES*********/
 
 .hero {
-  background: var(--color1);
+  background: var(--color-primary);
   padding: 2rem 0;
 }
 
@@ -117,8 +129,12 @@ img {
 }
 
 .divider {
-  border-bottom: 1px dashed #343434;
-  padding: 24px 0;
+  border-bottom: 1px dashed var(--color-almost-black);
+  padding: 2rem 0;
+}
+
+.divider img {
+  margin-right: 1rem;
 }
 
 .divider:last-of-type {
@@ -152,7 +168,7 @@ flex-direction: column;
   display: flex;
   justify-content: center;
   align-items: center;
-  max-width: 800px;
+  max-width: 900px;
   width: 80%;
   margin: 0 auto;
   padding: 60px 0;
