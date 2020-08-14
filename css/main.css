@@ -1,7 +1,7 @@
 /* @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap"); */
 @import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@500;600&display=swap");
 /* @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Roboto:wght@400;500&display=swap'); */
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap");
 
 /********* COLORS *********/
 
@@ -26,7 +26,7 @@ body {
   height: 100vh;
   width: 100vw;
   /* font-family: "Open Sans", sans-serif; */
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   color: var(--color-almost-black);
   display: grid;
   grid-template-rows: auto auto auto;
@@ -123,11 +123,16 @@ h3 {
 
 p {
   line-height: 2rem;
-  font-family: 'Roboto Slab', serif;
+  font-family: "Roboto Slab", serif;
 }
 
 a {
   color: var(--color3);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 strong {
@@ -187,7 +192,7 @@ header h3 {
   margin-bottom: 0.5rem;
 }
 
-h3 em{
+h3 em {
   font-weight: 400;
 }
 
@@ -238,7 +243,6 @@ footer {
 }
 
 .contact-list li a {
-  color: var(--color3);
   font-weight: 600;
 }
 
@@ -249,7 +253,7 @@ footer {
 .i-size {
   color: var(--color-almost-white);
   font-size: 1.5rem;
-  margin-right: 0.50rem;
+  margin-right: 0.5rem;
 }
 
 footer li {
@@ -277,14 +281,8 @@ footer li {
     margin-top: 1.5rem;
   }
 
-  img{
+  img {
     width: 260px;
     height: 350px;
   }
-
-  /* h1,
-  h2,
-  h3 {
-    font-weight: 600;
-  } */
 }
