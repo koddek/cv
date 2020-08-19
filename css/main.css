@@ -184,6 +184,10 @@ header .content {
   padding-bottom: 0;
 }
 
+.tech-link {
+  font-weight: bold;
+}
+
 /* FOOTER */
 
 footer .content {
